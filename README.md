@@ -1,13 +1,12 @@
-![](img/vitam-logo.svg)
 <p align="center">
    <a href="https://github.com/WesGtoX/vitam-website">
-     <img src="img/vitam-logo.svg" alt="Vitam" title="Vitam Logo" width="500">
+     <img src="static/img/vitam-logo.svg" alt="Vitam" title="Vitam" width="500">
    </a>
 </p>
 
 -----------------
 
-# Vitam
+# Vitam – Consultoria em Treinamento Físico
 
 Author: [Wesley Mendes](https://github.com/WesGtoX)
 
