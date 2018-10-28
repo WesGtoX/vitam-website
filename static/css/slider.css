@@ -9,7 +9,7 @@ summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	/* vertical-align: baseline; */
 
 }
 
@@ -40,6 +40,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* ==================== General Style ====================
 /* MAKE BODY,HTML TO BE FULL SCREEN(WIDTH = 100% OF VIEWPORT - WHICH IS DEVICE WIDTH, AND SAME WITH HEIGHT */
 body, html {
     width: 100%;
