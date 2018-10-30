@@ -24,11 +24,11 @@
         <div class="container">
             <ul class="main-nav">
                 <li><a href="#" class="logo"><img src="static/vitam-logo-2w.svg" alt="VITAM LOGO"></a></li>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#slider-container">Home</a></li>
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#services">Serviços</a></li>
                 <li><a href="#testimonials">Depoimentos</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="#contacts">Contato</a></li>
             </ul>
         </div>
     </nav>
@@ -136,6 +136,95 @@
         </div>
     </div>
 
+    <!-- Testimonials -->
+    <div id="testimonials" class="section">
+        <div class="container">
+            <div class="testimonials-wrapper">
+                <h2>Depoimentos</h2>
+                <div class="testimonial-box">
+                    <div class="image-testimonial">
+                        <img src="static/img/testimonial-1.jpeg" alt="Aluno 01">
+                    </div>
+                    <div class="text-testimonial">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur."</p>
+                        <p class="name">– Hugh</p>
+                    </div>
+                </div>
+                <div class="testimonial-box">
+                    <div class="image-testimonial">
+                        <img src="static/img/testimonial-2.png" alt="Aluno 02">
+                    </div>
+                    <div class="text-testimonial">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur."</p>
+                        <p class="name">– Amanda</p>
+                    </div>
+                </div>
+                <div class="testimonial-box">
+                    <div class="image-testimonial">
+                        <img src="static/img/testimonial-3.png" alt="Aluno 03">
+                    </div>
+                    <div class="text-testimonial">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur."</p>
+                        <p class="name">– Gibson</p>
+                    </div>
+                </div>
+                <div class="testimonial-box">
+                    <div class="image-testimonial">
+                        <img src="static/img/testimonial-4.png" alt="Aluno 04">
+                    </div>
+                    <div class="text-testimonial">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur."</p>
+                        <p class="name">– Diana</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contacts -->
+    <div id="contacts" class="section">
+        <div class="container">
+            <h2>Contate-nos</h2>
+            <div class="col-lg-6 offset-lg-3">
+                <p>Por favor, preencha o seguinte formulário, e iremos responder assim que possível!</p>
+                <form action="javascript:void(0)">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="first-name" placeholder="Nome">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="last-name" placeholder="Sobrenome">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <input type="email" class="form-control" id="email" placeholder="E-mail">
+                        </div>    
+                        <div class="form-group col-md-12">
+                            <textarea class="form-control" id="message" placeholder="Mensagem" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="custom-button">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
 	<footer>
@@ -158,7 +247,7 @@
                     </p>
                 </div>
                 <div class="col">
-                    <p>CONTATE-NOS</p>
+                    <p>CONTATOS</p>
                     <ul>
 						<!-- <li><i class="fa fa-map-marker"></i>&nbsp&nbspStreet No.123</li> -->
 						<li><i class="fab fa-whatsapp"></i><a href="tel:+5516992560649">&nbsp&nbsp16 99256-0649 (Leonardo)</a></li>
@@ -176,6 +265,7 @@
     </footer>
 
     <!-- Scripts -->
+    <script src="static/js/jquery-3.3.1.js"></script>
     <script src="static/js/main.js"></script>
     <script src="static/js/slider.js"></script>
 </body>

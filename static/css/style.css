@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Signika:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
-/* GENERAL */
+/* ========== GENERAL ========== */
 * {
     font-family: 'Signika', sans-serif;
     margin: 0;
@@ -10,7 +10,7 @@
 }
 
 body {
-    background: #111;
+    background-color: #222;
 }
 
 h2 {
@@ -33,7 +33,11 @@ p {
     line-height: 1.5;
 }
 
-/* .section {
+#home, #services, #testimonials, #contacts {
+    padding: 60px 0 60px;
+}
+
+ /* .section {
     margin: 40px 0 40px;
 } */
 
@@ -73,7 +77,8 @@ ul.main-nav {
     text-transform: uppercase;
 }
 
-.main-nav a:active, .main-nav a:hover {
+.main-nav a:active, 
+.main-nav a:hover {
     color: #00FF00;
 }
 
@@ -81,14 +86,12 @@ ul.main-nav {
     width: 210px;
 }
 
-/* ABOUT */
+/* ========== ABOUT ========== */
 #about {
-    background-color: #222;
     height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px 0 60px;
 }
 
 #about .about-us-text {
@@ -109,14 +112,13 @@ ul.main-nav {
 
 .recuo { text-indent:4em }
 
-/* SERVICES 3 COLUMN LAYOUT */
+/* ========== SERVICES 3 COLUMN LAYOUT ========== */
 #services {
     background: url(../img/background1.jpg) no-repeat fixed center;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px 0 60px;
 }
 
 .flex-grid {
@@ -133,8 +135,68 @@ ul.main-nav {
     margin-bottom: 20px;
 }
 
+/* ========== TESTIMONIALS ========== */
+#testimonials {
+    padding: 40px 0 40px;
+}
 
-/* FOOTER */
+.testimonials-wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.testimonials-wrapper .testimonial-box {
+    display: flex;
+    padding-top: 20px;
+}
+
+.testimonials-wrapper .image-testimonial {
+    padding: 20px;
+}
+
+.testimonials-wrapper .image-testimonial img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.testimonials-wrapper .text-testimonial, 
+.testimonials-wrapper .image-testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-testimonial p {
+    color: #828282;
+    font-style: italic;
+}
+
+p.name {
+    font-style: normal;
+    font-weight: bold;
+    color: #00FF00;
+}
+
+/* ========== CONTACTS ========== */
+#contacts {
+    background: #000;
+}
+#contacts .container p {
+    text-align: center;
+    padding: 20px 0 20px;
+}
+
+#contacts form .custom-button {
+    background: #00FF00;
+    padding: 7px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #000;
+    font-weight: bolder;
+}
+
+/* ========== FOOTER ========== */
 footer {
     background: #333;
     color: #fff;
@@ -165,8 +227,7 @@ footer .text-footer {
     text-align: justify;
 }
 
-
-/* FOOTER COPYRIGHT */
+/* ========== FOOTER COPYRIGHT ========== */
 footer .sub-footer {
     background-color: #222;
     padding: 20px 0 20px;
