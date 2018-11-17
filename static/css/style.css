@@ -37,7 +37,7 @@ p {
     padding: 60px 0 60px;
 }
 
- /* .section {
+/* .section {
     margin: 40px 0 40px;
 } */
 
@@ -45,7 +45,8 @@ p {
     position: fixed;
     top: 0;
     z-index: 10;
-    background: transparent;
+    /* background: transparent; */
+    background: #b20000;
     width: 100%;
     line-height: 80px;
 }
@@ -84,6 +85,10 @@ ul.main-nav {
 
 .main-nav .logo img {
     width: 210px;
+}
+
+.active {
+    color: #00FF00;
 }
 
 /* ========== ABOUT ========== */
