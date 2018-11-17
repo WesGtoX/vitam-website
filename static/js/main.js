@@ -17,4 +17,17 @@ $(document).ready(function() {
     });
 
     // Active link switching
+    $(window).scroll(function () {
+
+        const hrefLink = $(this).scrollTop();
+
+        $('.slide-section').each(function (e) {
+
+            if (hrefLink >= $($(this).attr('href')).offset().top - 100) {
+                $('.slide-section').not(this).removeClass('active');
+                $(this).addClass('active');
+            }
+        });
+    });
+
 });

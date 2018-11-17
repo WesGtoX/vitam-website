@@ -87,7 +87,7 @@ ul.main-nav {
     width: 210px;
 }
 
-.active {
+a.active {
     color: #00FF00;
 }
 
@@ -110,7 +110,7 @@ ul.main-nav {
     font-size: 1.1em;
 }
 
-#about .about-us-text .about-center {
+#about .about-center {
     text-align: center;
     font-size: 18px;
 }
