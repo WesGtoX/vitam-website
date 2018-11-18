@@ -45,8 +45,7 @@ p {
     position: fixed;
     top: 0;
     z-index: 10;
-    /* background: transparent; */
-    background: #b20000;
+    background: transparent;
     width: 100%;
     line-height: 80px;
 }
@@ -89,6 +88,16 @@ ul.main-nav {
 
 a.active {
     color: #00FF00;
+}
+
+.scroll {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background: #000;
+    opacity: 0.8;
+    width: 100%;
+    line-height: 60px;
 }
 
 /* ========== ABOUT ========== */

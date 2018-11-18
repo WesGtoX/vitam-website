@@ -17,7 +17,7 @@ $(document).ready(function() {
     });
 
     // Active link switching
-    $(window).scroll(function () {
+    $(window).scroll(function() {
 
         const hrefLink = $(this).scrollTop();
 
@@ -30,4 +30,15 @@ $(document).ready(function() {
         });
     });
 
+    // Change navbar attribute on scroll
+    $(window).scroll(function() {
+
+        const navSize = $(this).scrollTop();
+
+        if(navSize > 300) {
+            $('nav').addClass('scroll')
+        } else {
+            $('nav').removeClass('scroll')
+        }
+    });
 });
