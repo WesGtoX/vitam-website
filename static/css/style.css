@@ -36,6 +36,12 @@ p {
 a {
     outline: none;
     color: #fff;
+    font-style: none;
+}
+
+a:hover {
+    color: #fff;
+    font-style: none;
 }
 
 #home, #services, #testimonials, #contacts {
@@ -183,6 +189,9 @@ a.active {
     .mobile-nav.active {
         display: block;
     }
+    
+    .mobile-nav a:hover {
+        font-style: none;
 }
 
 /* ========== ABOUT ========== */
