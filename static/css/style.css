@@ -36,12 +36,6 @@ p {
 a {
     outline: none;
     color: #fff;
-    font-style: none;
-}
-
-a:hover {
-    color: #fff;
-    font-style: none;
 }
 
 #home, #services, #testimonials, #contacts {
@@ -86,7 +80,8 @@ ul.main-nav {
 }
 
 .main-nav a:active, 
-.main-nav a:hover {
+.main-nav a:hover,
+.mobile-nav a:hover {
     color: #00FF00;
 }
 
@@ -189,9 +184,6 @@ a.active {
     .mobile-nav.active {
         display: block;
     }
-    
-    .mobile-nav a:hover {
-        font-style: none;
 }
 
 /* ========== ABOUT ========== */

@@ -3,7 +3,7 @@ $(document).ready(function() {
     // Get the header height
     const headerHeight = $('.main-menu').outerHeight();
     
-    const scrollLink = $('.slide-section')
+    const scrollLink = $("a[href^='#']")
 
     // Smooth scroll
     scrollLink.click(function(e) {
