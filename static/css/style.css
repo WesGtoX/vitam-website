@@ -181,7 +181,7 @@ a.active-link {
         display: none;
     }
 
-    .mobile-nav.active-link {
+    .mobile-nav.active {
         display: block;
     }
 }
