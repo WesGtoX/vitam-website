@@ -25,8 +25,8 @@ $(document).ready(function() {
         $('.slide-section').each(function (e) {
 
             if (hrefLink >= $($(this).attr('href')).offset().top - 100) {
-                $('.slide-section').not(this).removeClass('active');
-                $(this).addClass('active');
+                $('.slide-section').not(this).removeClass('active-link');
+                $(this).addClass('active-link');
             }
         });
 
@@ -34,8 +34,8 @@ $(document).ready(function() {
         $('.slide-mobile-section').each(function (e) {
 
             if (hrefLink >= $($(this).attr('href')).offset().top - 100) {
-                $('.slide-mobile-section').not(this).removeClass('active');
-                $(this).addClass('active');
+                $('.slide-mobile-section').not(this).removeClass('active-link');
+                $(this).addClass('active-link');
             }
         });
     });

@@ -13,7 +13,7 @@ summary, time, mark, audio, video {
 
 } */
 
-/* HTML5 DISPLAY-ROLE RESET FOR OLDER BROWSERS */
+/* html5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -41,17 +41,17 @@ table {
 	border-spacing: 0;
 }
 /* ==================== General Style ====================
-/* MAKE BODY,HTML TO BE FULL SCREEN(WIDTH = 100% OF VIEWPORT - WHICH IS DEVICE WIDTH, AND SAME WITH HEIGHT */
+/* make body,html to be full screen(width = 100% of viewport - which is device width, and same with height */
 body, html {
     width: 100%;
     height: 100%;
 }
-/* SET ALL ELEMENTS TO INCLUDE BORDER AND PADDING IN THEIR WIDTH AND HEIGHT */
+/* set all elements to include border and padding in their width and height */
 * {
     box-sizing: border-box;
     user-select: none;
 }
-/* CLASSES TO CENTER ELEMENTS */
+/* classes to center elements */
 .center_y {
     position: relative;
     top: 50%;
@@ -63,42 +63,42 @@ body, html {
     left: 50%;
     transform: translate(-50%)
 }
-/* ==================== SLIDER STYLE ==================== */
-/* SET SLIDER CONTAINER FULL SCREEN */
+/* ==================== Slider Style ==================== */
+/* set slider container full screen */
 #slider-container {
     width: 100%;
     height: 100%;
     position: relative;
     overflow: hidden;
 }
-/* SET THE SLIDES FULL SCREEN */
-.slider {
+/* set the slides full screen */
+.slide-slider {
     width: 100%;
     height: 100%;
     position: absolute;
 }
-/* SET IMAGE TO OCCUPY THE WHOLE WIDTH AND HEIGHT OF THE SCREEN(LIKE A BACKGROUND COVER IMAGE)*/
-.slider img {
+/* set image to occupy the whole width and height of the screen(like a background cover image)*/
+.slide-slider img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-/* SET EACH SLIDE AS ABSOLUTE SO THEY OVERLAP ONE ON TOP OF EACH OTHER  */
-.slider {
+/* set each slide as absolute so they overlap one on top of each other  */
+.slide-slider {
     position: absolute;
 }
-/* SET GENERAL STYLE FOR EACH ARROW */
+/* set general style for each arrow */
 .slider-arrow {
     color: #fff;
     font-size: 50px;
     cursor: pointer;
     position: absolute;
 }
-/* USE POSITION ABSOLUTE TO MOVE THE PREV ARROW TO THE LEFT OF THE SCREEN */
+/* use position absolute to move the prev arrow to the left of the screen */
 #arrow-prev {
     left: 20px;;
 }
-/* USE POSITION ABSOLUTE TO MOVE THE NEXT ARROW TO THE RIGHT OF THE SCREEN*/
+/* use position absolute to move the next arrow to the right of the screen*/
 #arrow-next {
     right: 20px;
 }
@@ -108,7 +108,7 @@ body, html {
     position: absolute;
     bottom: 30px;
 }
-/* GENERAL STYLE FOR DOTS */
+/* general style for dots */
 .dot-navigation {
     width: 15px;
     height: 15px;
@@ -122,11 +122,11 @@ body, html {
 .dot-navigation:hover {
     background-color: #d6d6d6;
 }
-/* STYLE FOR ACTIVE DOT WHICH INDICATES THE INDEX OF CURRENT IMAGE */
-.active-dot {
+/* style for active dot which indicates the index of current image */
+.active-dot-slider {
     background-color: #d6d6d6;
 }
-/* FADING ANIMATION */
+/* fading animation */
 .fadeon {
     animation-name: fade;
     animation-duration: .5s;

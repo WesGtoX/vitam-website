@@ -26,10 +26,18 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Bootstrap style -->
-    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
     <!-- Fonts Awesome style -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+    <!-- Animate.css style -->
+    <link rel="stylesheet" href="static/css/animate.css">
+
+    <!-- Owl Carousel style -->
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
 
     <!-- Style -->
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
@@ -37,11 +45,12 @@
 
 </head>
 <body>
-    <!-- Menu -->
+    <!-- ========== Menu ========== -->
+    <!-- ========================== -->
     <nav class="main-menu">
         <div class="container">
             <ul class="main-nav">
-                <li><a href="#slider-container" class="slide-section logo" ><img src="static/vitam-logo-2w.svg" alt="VITAM LOGO"></a></li>
+                <li><a href="#slider-container" class="slide-section logo"><img src="static/vitam-logo-2w.svg" alt="VITAM LOGO"></a></li>
 
                 <li><a href="#slider-container" class="slide-section">Home</a></li>
                 <li><a href="#about" class="slide-section">Sobre</a></li>
@@ -52,7 +61,8 @@
         </div>
     </nav>
 
-    <!-- Mobile menu -->
+    <!-- ========== Mobile menu ========== -->
+    <!-- ================================= -->
     <div class="mobile-menu">
         <div class="container">
             <div class="icon-and-logo">
@@ -73,16 +83,17 @@
         </div>
     </div>
 
-    <!-- Image slider -->
+    <!-- ========== Image slider ========== -->
+    <!-- ================================== -->
     <section id="slider-container">
         <!-- Slides -->
-        <div class="slide fadeon" id="slide-0">
+        <div class="slide-slider fadeon" id="slide-0">
             <img src="static/img/img1.jpg" alt="">
         </div>
-        <div class="slide fadeon" id="slide-1">
+        <div class="slide-slider fadeon" id="slide-1">
             <img src="static/img/img2.jpg" alt="">
         </div>
-        <div class="slide fadeon" id="slide-2">
+        <div class="slide-slider fadeon" id="slide-2">
             <img src="static/img/img3.jpg" alt="">
         </div>
 
@@ -102,7 +113,8 @@
         </div>
     </section>
 
-    <!-- Section about -->
+    <!-- ========== Section about ========== -->
+    <!-- =================================== -->
     <div id="about" class="section">
         <div class="about-us-text container">
             <div class="text">
@@ -132,7 +144,8 @@
         </div>
     </div>
 
-    <!-- Section services -->
+    <!-- ========== Section services ========== -->
+    <!-- ====================================== -->
     <div id="services" class="section">
         <div class="container">
             <h2>Nossos Serviços</h2>
@@ -176,68 +189,43 @@
         </div>
     </div>
 
-    <!-- Testimonials -->
+    <!-- ========== Testimonials ========== -->
+    <!-- ================================== -->
     <div id="testimonials" class="section">
         <div class="container">
             <div class="testimonials-wrapper">
-                <h2>Depoimentos</h2>
-                <div class="testimonial-box">
-                    <div class="image-testimonial">
-                        <img src="static/img/testimonial-1.jpeg" alt="Aluno 01">
+                <h2>Depoimentos de Alunos</h2>
+
+                <div class="owl-carousel owl-theme">
+                    <div class="testimonial-box">
+                        <div class="image-testimonial">
+                            <img src="static/img/testimonial-1.png" alt="Aluno 01">
+                        </div>
+                        <div class="text-testimonial text-center">
+                            <p class="name">Wesley Mendes</p>
+                            <p>"Vitam é uma empresa com profissionais muito capacitados, sou muito bem atendido 
+                                pela equipe e minha performance melhorou 100% com o programa de treinamento!!."</p>
+                        </div>
                     </div>
-                    <div class="text-testimonial">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur."</p>
-                        <p class="name">– Hugh</p>
-                    </div>
-                </div>
-                <div class="testimonial-box">
-                    <div class="image-testimonial">
-                        <img src="static/img/testimonial-2.png" alt="Aluno 02">
-                    </div>
-                    <div class="text-testimonial">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur."</p>
-                        <p class="name">– Amanda</p>
-                    </div>
-                </div>
-                <div class="testimonial-box">
-                    <div class="image-testimonial">
-                        <img src="static/img/testimonial-3.png" alt="Aluno 03">
-                    </div>
-                    <div class="text-testimonial">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur."</p>
-                        <p class="name">– Gibson</p>
-                    </div>
-                </div>
-                <div class="testimonial-box">
-                    <div class="image-testimonial">
-                        <img src="static/img/testimonial-4.png" alt="Aluno 04">
-                    </div>
-                    <div class="text-testimonial">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur."</p>
-                        <p class="name">– Diana</p>
+
+                    <div class="testimonial-box">
+                        <div class="image-testimonial">
+                            <img src="static/img/testimonial-2.png" alt="Aluno 02">
+                        </div>
+                        <div class="text-testimonial text-center">
+                            <p class="name">Rayza Gonçalves</p>
+                            <p>"Depois de conhecer a VITAM, além de condicionamento físico, recuperei minha 
+                                autoestima e tenho a certeza de que a atividade física, nos meus dias, sempre 
+                                estará presente."</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Contacts -->
+    <!-- ========== Contacts ========== -->
+    <!-- ============================== -->
     <div id="contacts" class="section">
         <div class="container">
             <h2>Contate-nos</h2>
@@ -266,7 +254,8 @@
         </div>
     </div>
 
-    <!-- Footer -->
+    <!-- ========== Footer ========== -->
+    <!-- ============================ -->
 	<footer>
 		<div class="container">
 			<div class="footer-wrapper flex-grid">
@@ -304,8 +293,23 @@
 			</div>
     </footer>
 
-    <!-- Scripts -->
+    <!-- ============================= -->
+
+    <!-- jQuery min js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap popper.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap.min.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- jQuery js -->
     <script src="static/js/jquery-3.3.1.js"></script>
+    
+    <!-- Owl Carousel js -->
+    <script src="static/js/owl.carousel.min.js"></script>
+
     <script src="static/js/main.js"></script>
     <script src="static/js/slider.js"></script>
 </body>
