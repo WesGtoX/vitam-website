@@ -154,6 +154,10 @@ a.active-link {
         text-align: center;
         margin: 10px 0 15px;
     }
+
+    .icon-and-logo ol {
+        margin-bottom: 0;
+    }
     
     /* ========== BURGUER MENU ========== */
     .menu-icon {
