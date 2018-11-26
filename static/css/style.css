@@ -207,7 +207,7 @@ a.active-link {
 #about .about-us-text {
     width: 95%;
     position: relative;
-    text-align: justify;
+    /* text-align: justify; */
     color: #fff;
 }
 
@@ -220,7 +220,7 @@ a.active-link {
     font-size: 18px;
 }
 
-.recuo { text-indent:4em }
+.recuo { text-indent: 4em }
 
 /* ========== SERVICES 3 COLUMN LAYOUT ========== */
 #services {
