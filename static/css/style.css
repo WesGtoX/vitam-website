@@ -6,7 +6,6 @@
     font-family: 'Signika', sans-serif;
     margin: 0;
     padding: 0;
-    color: #fff;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -226,6 +225,7 @@ a.active-link {
 #services {
     background: url(../img/background1.jpg) no-repeat fixed center;
     background-size: cover;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -247,6 +247,7 @@ a.active-link {
 
 /* ========== TESTIMONIALS ========== */
 #testimonials {
+    color: #fff;
     padding: 40px 0 40px;
 }
 
@@ -313,6 +314,7 @@ p.name {
 /* ========== CONTACTS ========== */
 #contacts {
     background: #000;
+    color: #fff;
 }
 #contacts .container p {
     text-align: center;
@@ -347,6 +349,10 @@ footer .footer-wrapper .col a {
     text-decoration: none;
 }
 
+footer .footer-wrapper li.hover-color i {
+    color: #00FF00;
+}
+
 footer .social-wrapper a {
     color: #fff;
     padding: 6px;
@@ -360,6 +366,15 @@ footer .text-footer {
     text-align: justify;
 }
 
+footer .top {
+    text-align: right;
+    padding: 0% 2% 2% 0%;
+}
+
+footer .top a:hover {
+    color: #00FF00;
+}
+
 /* ========== FOOTER COPYRIGHT ========== */
 footer .sub-footer {
     background-color: #222;
@@ -368,12 +383,11 @@ footer .sub-footer {
 }
 
 footer .sub-footer .container a {
-    color: #fff;
     text-decoration: none;
 }
 
 footer .sub-footer .container a:hover {
-    color: #9e9e9e
+    color: #9e9e9e;
 }
 
 /* ========== RESPONSIVE ========== */

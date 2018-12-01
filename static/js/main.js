@@ -17,6 +17,7 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
+    
     // Change link color on scroll
     $(window).scroll(function() {
 
@@ -40,6 +41,7 @@ $(document).ready(function() {
         });
     });
 
+
     // Change navbar size on scroll
     $(window).scroll(function() {
 
@@ -52,6 +54,15 @@ $(document).ready(function() {
         }
     });
     
+
+    // Change footer contact icon color
+    $('.link-color').hover(function() {
+        $(this).addClass('hover-color');
+    }, function() {
+        $(this).removeClass('hover-color');
+    });
+    
+
     // Mobile burguer menu
 	jQuery('.menu-icon').on('click', function() {
         jQuery('.menu-icon').toggleClass('change');
