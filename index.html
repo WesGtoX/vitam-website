@@ -233,21 +233,21 @@
             <h2>Contate-nos</h2>
             <div class="col-lg-6 offset-lg-3">
                 <p>Por favor, preencha o seguinte formulário, e iremos responder assim que possível!</p>
-                <form action="javascript:void(0)">
+                <form method="POST" action="./contato.php">
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control" id="first-name" placeholder="Nome">
+                            <input type="text" class="form-control" id="first-name" name="first-name" required placeholder="Nome">
                         </div>
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control" id="last-name" placeholder="Sobrenome">
+                            <input type="text" class="form-control" id="last-name" name="last-name" required placeholder="Sobrenome">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-12">
-                            <input type="email" class="form-control" id="email" placeholder="E-mail">
+                            <input type="email" class="form-control" id="email" name="email" required placeholder="E-mail">
                         </div>    
                         <div class="form-group col-md-12">
-                            <textarea class="form-control" id="message" placeholder="Mensagem" rows="3"></textarea>
+                            <textarea class="form-control" id="message" name="message" required placeholder="Mensagem" rows="3"></textarea>
                         </div>
                     </div>
                     <button type="submit" class="custom-button">Enviar</button>
