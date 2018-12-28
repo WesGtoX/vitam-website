@@ -72,5 +72,52 @@ $(document).ready(function() {
 	jQuery('ul.mobile-nav li a').on('click', function() {
         jQuery('.menu-icon').removeClass('change');
 		jQuery('.mobile-nav').removeClass('active');
-	})
+    });
+    
+    // Form validation
+
+    //email validation
+    function validationEmail($email) {
+        var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+        return emailReg.test($email);
+    }
+
+    $('#email').on('focusout', function() {
+
+        if($(this).val() != "") {
+            if(validationEmail($(this).val())) {
+                $(this).css('border','2px solid #00FF00');
+                $('#error').text('');
+            } else {
+                $(this).css('border','2px solid red');
+                $('#error').text('Endereço de e-mail inválido!');
+            }
+
+        } else {
+            $(this).css('border','2px solid red');
+            $('#error').text('E-mail é obrigatório!');
+        }
+    });
+
+    //message validation
+    $('#message').on('focusout', function() {
+
+        if($(this).val() != "") {
+            $(this).css('border','2px solid #00FF00');
+            $('#error').text('');
+        } else {
+            $(this).css('border','2px solid red');
+            $('#error').text('Mensagem é obrigatória!');
+        }
+    });
+
+    //name and subject validation
+    $('#first-name, #last-name').on('focusout', function() {
+
+        if($(this).val() != "") {
+            $(this).css('border','2px solid #00FF00');
+        } else {
+            $(this).css('border','2px solid rgb(212, 212, 212');
+        }
+    });
 });

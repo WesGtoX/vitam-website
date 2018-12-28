@@ -321,6 +321,15 @@ p.name {
     padding: 20px 0 20px;
 }
 
+#contacts form {
+    -webkit-touch-callour: auto;
+    -webkit-user-select: auto;
+    -khtml-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+}
+
 #contacts form .custom-button {
     background: #00FF00;
     padding: 7px 15px;
@@ -329,6 +338,13 @@ p.name {
     border-radius: 3px;
     color: #000;
     font-weight: bolder;
+}
+
+#contacts .container p#error {
+    padding: 0;
+    color: #EF233C;
+    font-size:12px;
+    margin-top: -15px;
 }
 
 /* ========== FOOTER ========== */
@@ -347,6 +363,15 @@ footer .footer-wrapper .col {
 footer .footer-wrapper .col a {
     color: #fff;
     text-decoration: none;
+}
+
+footer .footer-wrapper ul a {
+    -webkit-touch-callour: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
 }
 
 footer .footer-wrapper li.hover-color i {
