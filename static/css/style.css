@@ -321,13 +321,13 @@ p.name {
     padding: 20px 0 20px;
 }
 
-#contacts form {
-    -webkit-touch-callour: auto;
-    -webkit-user-select: auto;
-    -khtml-user-select: auto;
-    -moz-user-select: auto;
-    -ms-user-select: auto;
-    user-select: auto;
+#contacts form .form-control {
+    -webkit-touch-callour: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
 }
 
 #contacts form .custom-button {
