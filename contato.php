@@ -7,12 +7,12 @@
         $mail = addslashes($_POST['email']);
         $message = addslashes($_POST['message']);
 
-        $to = "wesley_gto_x@yahoo.com.br";
+        $to = "vitam@vitam.com.br";
         $subject = "Contato - Vitam";
         $body = "Nome: ".$nome. "\n".
                 "Email: ".$mail. "\n".
                 "Mensagem".$message;
-        $header = "From:wes_mendes21@yahoo.com"."\r\n".
+        $header = "From:vitam@vitam.com"."\r\n".
                     "Reply-to:".$mail."\r\n".
                     "X=Mailer:PHP/".phpversion();
 
